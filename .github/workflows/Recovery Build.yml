@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/A-mistake-hello/android_device_vivo_PD2219'
+        default: 'https://github.com/XingKongTanSuo/android_device_vivo_PD1986'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'twrp-12.1-TEST'
+        default: 'twrp-11'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/vivo/PD2219'
+        default: 'device/vivo/PD1986'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'PD2219'
+        default: 'PD1986'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_PD2219'
+        default: 'twrp_PD1986'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
