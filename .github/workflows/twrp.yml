@@ -64,7 +64,7 @@ jobs:
         lunch twrp_PD1986-eng 
         mka recoveryimage -j4
     
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: twrp.img
         path: twrp/out/target/product/PD1986/recovery.img
